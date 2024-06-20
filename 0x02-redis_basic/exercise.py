@@ -11,7 +11,6 @@ from typing import Union, Callable, Optional
 
 def replay(method: Callable) -> None:
     """Display the history of calls of a particular function.
-
     Args:
         method (Callable): The function to display the history for.
     """
